@@ -32,11 +32,11 @@ export default function Faqs() {
                 <div className="flex justify-center">
                     <Tags>Faqs</Tags>
                 </div>
-                <h2 className="text-6xl font-medium mt-6 text-center">
-                    Question? We've got{" "}
+                <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
+                    Question? We&apos;ve got{" "}
                     <span className="text-lime-400">answers</span>
                 </h2>
-                <div className="mt-12 flex flex-col gap-6">
+                <div className="mt-12 flex flex-col gap-6 max-w-xl mx-auto">
                     {faqs.map((faq, faqIndex) => (
                         <div
                             key={faq.question}

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import logoImage from "@/assets/images/logo.svg";
 import Button from "@/components/Button";
-import { useState } from "react";
+//import { useState } from "react";
 // import { link } from "fs"; // Commented out as it's not being used
 
 const navLinks = [
@@ -14,7 +14,7 @@ const navLinks = [
 ];
 
 export default function Navbar() {
-    const [isOpen, setIsOpen] = useState(false);
+    //const [isOpen, setIsOpen] = useState(false);
     return (
         <section className="py-4 lg:py-8 sticky top-0 z-50">
             <div className="container max-w-5xl">
